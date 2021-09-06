@@ -2,12 +2,23 @@
 <html lang="en">
 
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62355042-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-62355042-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Benjamin Hunkins">
-    <meta name="description" content="Benjamin Hunkins - Creative design from the West Coast">
-    <meta name="theme-color" content="#333333">
+    <meta name="description" content="Benjamin Hunkins is doing creative design on the west coast 👍">
+    <meta name="theme-color" content="#161616">
     <link rel="icon" href="img/siteicon_512x512.png">
 
     <title>Oh, Hello!</title>
@@ -17,43 +28,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 
+    <!-- Bootstrap Icons -->
+    <!--
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    -->
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <div id="main_container">
 
-        <div id="main">
-
-            <div id="nav">
-                <ul>
-                    <li><a href="index.html">About Me</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="http://www.behance.net/benjaminhunkins">Portfolio</a></li>
-                </ul>
+    <main class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col lead">
+                    <p>Hello! My name is Benjamin Hunkins. Let’s build something effective, beautiful and
+                        smooth-running.
+                    <p>I am not currently accepting new clients, but please feel free to get in touch!</p>
+                    <p>hello@benjaminhunkins.com</p>
+                    <div class="row justify-content-end">
+                        <div class="col sig">
+                            <img alt="" src="img/sig_bw.png">
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div id="content">
-                <p id="big">
-                    Hello! My name is Benjamin Hunkins. I enjoy creating uncomplicated and effective multimedia of all
-                    shapes and sizes.
-                    Please feel free to <a href="contact.html">get in touch</a> with me or <a
-                        href="http://www.behance.net/benjaminhunkins">take a look</a> at my past, present, and ongoing
-                    work!
-                    <br /><br /><img src="img/sig_bw.png" width="100px" />
-                </p>
-            </div>
+    </main>
 
-        </div>
-
-        <div id="footer">
-            <p>&copy;2015 BENJAMINHUNKINS.COM</p>
-        </div>
-
-    </div>
-
+    <!-- Bootstrap 5 JS Bundle -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>
